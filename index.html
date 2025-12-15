@@ -4,15 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>parabens🕊️</title>
-</head>
-<body style="background-image: url();
-          ">
-  <div style="text-align: center;" >
-  
-    <h1>🔥🔥🔥🔥PARABENS🔥🔥🔥🔥🔥🔥🔥</h1>
-  
-  </div>
 
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-image: url(https://scontent.frec13-1.fna.fbcdn.net/v/t1.15752-9/597531022_1932920284312528_3705385607675353574_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=ITRTSRiP7pYQ7kNvwGDV8-P&_nc_oc=AdkU2V5CpNKPKeT8ZuhNF1SvGmb51IiO0D3X7H8nQ56ZAWrxESlEMMOiM3GG7dCasIDxTZwhn9FGs9veItpGwYVA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.frec13-1.fna&oh=03_Q7cD4AF140Uo179PCdZQrVAR7av7u_KoWx27ttY4bmR3iLF42Q&oe=69681960);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 60px;
+      color: red;
+      font-family: "Comic Sans MS", "Papyrus", cursive; 
+      text-shadow: 3px 3px black;
+    }
+
+    button {
+      margin-top: auto;
+      margin-bottom: auto;
+      padding: 20px 40px;
+      font-size: 30px;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: darkgreen;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>🔥🔥🔥🔥 PARABENS 🔥🔥🔥🔥</h1>
+
+  <button onclick="tocarAudio()">PARABENS</button>
+
+  <audio id="som" src="audio.mp3"></audio>
+
+  <script>
+    function tocarAudio() {
+      document.getElementById("som").play();
+    }
+  </script>
 
 </body>
 </html>
