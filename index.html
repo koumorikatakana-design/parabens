@@ -1,88 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>parabens🕊️</title>
+<meta charset="UTF-8">
+<title>Site no 3DS</title>
 
- <style>
-  body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+}
 
-  
-  .lado {
-    width: 240px;
-    display: flex;
-    justify-content: center;
-  }
+#app {
+  width: 320px;
+  margin: auto;
+  padding: 10px;
+}
 
-  .gif {
-    width: 180px;
-  }
-
-  
-  .centro {
-    width: 60%;
-    height: 100vh;
-
-    background-image: url(https://scontent.frec13-1.fna.fbcdn.net/v/t1.15752-9/597531022_1932920284312528_3705385607675353574_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=ITRTSRiP7pYQ7kNvwGDV8-P&_nc_oc=AdkU2V5CpNKPKeT8ZuhNF1SvGmb51IiO0D3X7H8nQ56ZAWrxESlEMMOiM3GG7dCasIDxTZwhn9FGs9veItpGwYVA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.frec13-1.fna&oh=03_Q7cD4AG-Mvs38AbHSbd1AL7fcCfIewsVpANxU10lSnQqByV0zg&oe=69681960);
-
-    
-    background-size: 140% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  h1 {
-    margin-top: 20px;
-    font-size: 60px;
-    color: red;
-    font-family: "Comic Sans MS", "Papyrus", cursive;
-    text-shadow: 3px 3px black;
-  }
-
-  button {
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 20px 40px;
-    font-size: 30px;
-    background-color: green;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-  }
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 14px;
+}
 </style>
-
 </head>
 
 <body>
+<div id="app">
+  <h2>Meu site no 3DS</h2>
+  <p>Isso aqui abre no navegador do 3DS.</p>
 
-  <img src="gif-esquerda.gif" class="gif">
-
-  <div class="centro">
-    <h1>🔥 PARABENS 🔥</h1>
-    <button onclick="tocarAudio()">PARABENS</button>
-  </div>
-
-  <img src="gif-direita.gif" class="gif">
-
-  <audio id="som" src="audio.mp3"></audio>
-
-  <script>
-    function tocarAudio() {
-      document.getElementById("som").play();
-    }
-  </script>
-
+  <button>Botão 1</button>
+  <button>Botão 2</button>
+</div>
 </body>
 </html>
-
