@@ -2,38 +2,91 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Site no 3DS</title>
+<title>Site 3DS</title>
 
 <style>
-body {
+/* RESET SIMPLES */
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #111;
-  color: #fff;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* BODY */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+/* APP CENTRAL */
 #app {
   width: 320px;
-  margin: auto;
+  margin: 0 auto;
   padding: 10px;
+  background-color: #111;
 }
 
-button {
+/* TÍTULO */
+h1 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* TEXTO */
+p {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+/* BOTÕES */
+.button {
+  display: block;
   width: 100%;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
   padding: 10px;
-  margin-top: 5px;
-  font-size: 14px;
+  margin-bottom: 6px;
+  border: 1px solid #444;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* BOTÃO PRESSIONADO (TOUCH) */
+.button:active {
+  background-color: #444;
+}
+
+/* RODAPÉ */
+#footer {
+  text-align: center;
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 10px;
 }
 </style>
 </head>
 
 <body>
 <div id="app">
-  <h2>Meu site no 3DS</h2>
-  <p>Isso aqui abre no navegador do 3DS.</p>
 
-  <button>Botão 1</button>
-  <button>Botão 2</button>
+  <h1>Meu site no 3DS</h1>
+
+  <p>
+    Esse site foi feito especialmente para o navegador do Old 3DS XL.
+  </p>
+
+  <a href="#" class="button">Opção 1</a>
+  <a href="#" class="button">Opção 2</a>
+  <a href="#" class="button">Opção 3</a>
+
+  <div id="footer">
+    Feito para Nintendo 3DS
+  </div>
+
 </div>
 </body>
 </html>
